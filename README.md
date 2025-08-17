@@ -48,7 +48,7 @@ To run:
 Photos are present inside the images folder 
 
 ## 🔮 Future Improvements 
-- Smarter pathfinding (BFS/A*).  
+- Smarter pathfinding (Boundary Fill/Flood Fill).  
 - Implement Bluetooth/Wifi logging to a mobile app.  
 - 3D print a custom chassis for better stability.
 
