@@ -26,12 +26,23 @@ It records visited coordinates and **displays the solved path**.
 - Adafruit SSD306 : https://github.com/adafruit/Adafruit_SSD1306
 - Custom Motor Library **(Files Included)**
 
+## Build Instructions
+- Clone the repo and open in PlatformIO IDE.
+- Ensure `platformio.ini` is configured for your board (ESP32/Arduino Uno, etc.).
+- Build and upload with one click!
+
 ## 📂 Code
 All Arduino code is available in the `src/` folder.  
 To run:  
 1. Install the libraries.  
 2. Upload the code to Arduino.  
 3. Connect the sensors, display, and motors as per the circuit diagram **(Present inside Images Folder)**.
+
+## Code Modules
+- **Sensor.h / Sensor.cpp** – handles ultrasonic input
+- **Motor.h / Motor.cpp** – motor control
+- **Display.h / Display.cpp** – OLED display logic
+- **Solver.h / Solver.cpp** – pathfinding and tracking
 
 ## 📸 Demo
 Photos are present inside the images folder 
