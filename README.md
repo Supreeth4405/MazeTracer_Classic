@@ -51,7 +51,7 @@ Photos are present inside the images folder
 - Smarter pathfinding (Boundary Fill/Flood Fill).  
 - Implement Bluetooth/Wifi logging to a mobile app.  
 - 3D print a custom chassis for better stability.
-- Make menu driven OLED screen which lets you choose mode of solving
+- Make a menu driven OLED screen which lets you choose mode of solving
 
 ## 👤 Author
 Developed by Supreeth (12th grade project, 2025).  
