@@ -1,6 +1,10 @@
 #ifndef SOLVER_H
 #define SOLVER_H
 
+#include <Arduino.h>
+#include "Motor.h"
+#include "Diaplay.h"
+
 struct POINT {
   int x;
   int y;
@@ -19,5 +23,6 @@ enum Direction {
 void logsteps(int newX, int newY);
 void coordinates(Direction dir, int &x, int &y);
 void solve(Direction &dir, int &x, int &y, int left, int center, int right);
+
 
 #endif
