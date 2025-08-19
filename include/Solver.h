@@ -3,7 +3,7 @@
 
 #include <Arduino.h>
 #include "Motor.h"
-#include "Diaplay.h"
+#include "Display.h"
 
 struct POINT {
   int x;
@@ -26,3 +26,4 @@ void solve(Direction &dir, int &x, int &y, int left, int center, int right);
 
 
 #endif
+
